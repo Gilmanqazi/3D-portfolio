@@ -108,7 +108,7 @@ duration:0.2,
 
     {/* simple circle with minimal nesting */}
 
-    <div ref={circleRef} className='w-24 sm:w-28 md:w-32 h-2 sm:h-28 md:h-32 rounded-full flex items-center justify-center relative transition-shadow duration-1000 shadow-violet-300/50 shadow-lg bg-gradient-to-r from-violet-400 to-pink-100'>
+    <div ref={circleRef} className='w-24 sm:w-28 md:w-32 h-24 sm:h-28 md:h-32 rounded-full flex items-center justify-center relative transition-shadow duration-1000 shadow-violet-300/50 shadow-lg bg-gradient-to-r from-violet-400 to-pink-100'>
 
     {/* initial Text */}
     <p ref={initialTextRef} className='text-black font-bold text-base sm:text-lg md:text:xl absolute inset-0 flex items-center text-center'>
